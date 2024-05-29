@@ -4,7 +4,7 @@ library(tidyverse)
 library(mongolite)
 
 message('Scraping Data')
-url <- "https://www.suara.com/news/news-category/nasional#"
+url <- "https://www.suara.com/news/news-category/nasional"
 page <- read_html(url)
 
 
