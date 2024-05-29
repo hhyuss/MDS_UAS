@@ -24,13 +24,3 @@ data <- data.frame(
   stringsAsFactors = FALSE
 )
 
-# MONGODB
-message('Input Data to MongoDB Atlas')
-atlas_conn <- mongo(
-  collection = Sys.getenv("ATLAS_COLLECTION"),
-  db         = Sys.getenv("ATLAS_DB"),
-  url        = Sys.getenv("ATLAS_URL")
-)
-
-atlas_conn$insert(data)
-rm(atlas_conn)
