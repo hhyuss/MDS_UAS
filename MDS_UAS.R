@@ -9,14 +9,18 @@ url <- "https://www.viva.co.id/"
 page <- read_html(url)
 
 # Extract data using XPath selectors
-judul <- page %>% html_nodes(xpath = '/html/body/div[2]/span/div[8]/div[2]/div/section[3]/div[2]/div[2]/div[2]/span/a[2]') %>% html_text()
-kategori <- page %>% html_nodes(xpath = '/html/body/div[2]/span/div[8]/div[2]/div/section[3]/div[2]/div[2]/div[2]/span/a[3]') %>% html_text()
+judul <- page %>% html_nodes(xpath = '//*[@id="load-content"]/div[1]/div[2]/span/a[2]') %>% html_text()
+kategori <- page %>% html_nodes(xpath = '//*[@id="load-content"]/div[1]/div[2]/span/a[3]') %>% html_text()
+date <- page %>% html_nodes(xpath = '//*[@id="load-content"]/div[1]/div[2]/span/div') %>% html_text()
+links <- page %>% html_nodes(xpath = '//*[@id="load-content"]/div[1]/div[2]/span/a[2]') %>% html_attr("href")
 
 
 data <- data.frame(
   time_scraped = Sys.time(),
   judul = head(judul, 10),
   kategori = head(kategori, 10),
+  date = head(date,5),
+  links = head (links,5),
   stringsAsFactors = FALSE
 )
 
