@@ -5,39 +5,21 @@ library(mongolite)
 library(httr)
 
 message('Scraping Data')
-url <- "https://www.viva.co.id/"
+url <- "https://www.viva.co.id/search?q=pilkada%20jakarta/"
 page <- read_html(url)
 
 # Extract data using XPath selectors
 judul <- page %>% html_nodes(xpath = '//a[@class="article-list-title"]') %>% html_text()
-kategori <- page %>% html_nodes(xpath = '//a[@class="article-list-cate content_center"]') %>% html_text()
-date <- page %>% html_nodes(xpath = '//div[@class="article-list-date content_center"]') %>% html_text()
 links <- page %>% html_nodes(xpath = '//a[@class="article-list-title"]') %>% html_attr("href")
-
-# Check lengths
-length(judul)
-length(kategori)
-length(date)
-length(links)
-
-# Find the minimum length
-min_length <- min(length(judul), length(kategori), length(date), length(links))
-
-# Trim all vectors to the same length
-judul <- judul[1:min_length]
-kategori <- kategori[1:min_length]
-date <- date[1:min_length]
-links <- links[1:min_length]
+date <- page %>% html_nodes(xpath = '//div[@class="article-list-date content_center"]') %>% html_text()
 
 data <- data.frame(
   time_scraped = Sys.time(),
-  judul = judul,
-  kategori = kategori, 
-  date = date,
-  links = links,
+  judul = head (judul,5),
+links = head(links,5),
+date = head(date,5),
   stringsAsFactors = FALSE
 )
-
 # MONGODB
 message('Input Data to MongoDB Atlas')
 atlas_conn <- mongo(
