@@ -9,18 +9,32 @@ url <- "https://www.viva.co.id/"
 page <- read_html(url)
 
 # Extract data using XPath selectors
-judul <- page %>% html_nodes(xpath = '//*[@id="load-content"]/div[1]/div[2]/span/a[2]') %>% html_text()
-kategori <- page %>% html_nodes(xpath = '//*[@id="load-content"]/div[1]/div[2]/span/a[3]') %>% html_text()
-date <- page %>% html_nodes(xpath = '//*[@id="load-content"]/div[1]/div[2]/span/div') %>% html_text()
-links <- page %>% html_nodes(xpath = '//*[@id="load-content"]/div[1]/div[2]/span/a[2]') %>% html_attr("href")
+judul <- page %>% html_nodes(xpath = '//a[@class="article-list-title"]') %>% html_text()
+kategori <- page %>% html_nodes(xpath = '//a[@class="article-list-cate content_center"]') %>% html_text()
+date <- page %>% html_nodes(xpath = '//div[@class="article-list-date content_center"]') %>% html_text()
+links <- page %>% html_nodes(xpath = '//a[@class="article-list-title"]') %>% html_attr("href")
 
+# Check lengths
+length(judul)
+length(kategori)
+length(date)
+length(links)
+
+# Find the minimum length
+min_length <- min(length(judul), length(kategori), length(date), length(links))
+
+# Trim all vectors to the same length
+judul <- judul[1:min_length]
+kategori <- kategori[1:min_length]
+date <- date[1:min_length]
+links <- links[1:min_length]
 
 data <- data.frame(
   time_scraped = Sys.time(),
-  judul = head(judul, 10),
-  kategori = head(kategori, 10),
-  date = head(date,5),
-  links = head (links,5),
+  judul = judul,
+  kategori = kategori, 
+  date = date,
+  links = links,
   stringsAsFactors = FALSE
 )
 
