@@ -21,8 +21,6 @@
 •
 [Visualisasi Data Scraping](#chart_with_upwards_trend-visualisasi-data-scraping)
 •
-[PPT](#computer_mouse-power-point-presentation)
-•
 [Pengembang](#woman_technologist-pengembang)
 
 
@@ -30,28 +28,28 @@
 
 ## :bar_chart: Tentang
 
-<p align="center"><strong>Apa sih Pilkada Jakarta 2024 itu?</strong></p>
+<p align="justify"><strong>Apa sih Pilkada Jakarta 2024 itu?</strong></p>
 
 <p align="justify">
 Pilkada Jakarta 2024 merujuk pada pemilihan kepala daerah yang akan diselenggarakan di Jakarta pada tahun 2024. Pemilihan ini akan menentukan gubernur dan wakil gubernur Jakarta untuk periode berikutnya. Pilkada ini merupakan bagian penting dari proses demokrasi di Indonesia.
 </p>
 
-<p align="center"><strong>Mengapa Memilih untuk Scraping Berita Terkait Pilkada Jakarta 2024?</strong></p>
+<p align="justify"><strong>Mengapa Memilih untuk Scraping Berita Terkait Pilkada Jakarta 2024?</strong></p>
 
-<p align="justify">
-Memilih untuk melakukan scraping berita terkait Pilkada Jakarta 2024 memberikan banyak manfaat, antara lain:
+ <p align="justify">
+  
 - Memperoleh informasi terkini: Dengan scraping, kita dapat memperoleh berita terbaru seputar Pilkada Jakarta 2024 secara cepat dan efisien.
 - Analisis tren dan perkembangan: Data yang diambil dapat digunakan untuk menganalisis tren dan perkembangan terkait pemilihan, membantu dalam memahami dinamika politik dan preferensi pemilih.
 - Transparansi dan akurasi: Dengan mengumpulkan berita dari berbagai sumber, kita dapat memastikan transparansi dan akurasi informasi yang disampaikan kepada publik.
 - Mendukung pengambilan keputusan: Informasi yang dikumpulkan dapat digunakan sebagai dasar untuk pengambilan keputusan yang lebih baik, baik bagi pemilih maupun pihak terkait dalam proses pemilihan.
 </p>
 
-<p align="center">
+<p align="justify">
 <strong>Aspek Lain yang Terkait dengan Pilkada Jakarta 2024:</strong>
 </p>
 
-<p align="justify">
-Selain berita, ada beberapa aspek lain yang juga terkait dengan Pilkada Jakarta 2024, antara lain:
+ <p align="justify">
+  
 - Debat calon: Debat antara calon gubernur dan wakil gubernur yang menjadi platform untuk menyampaikan visi, misi, dan program kerja.
 - Kampanye politik: Kegiatan kampanye yang dilakukan oleh calon dan tim pendukungnya untuk memperoleh dukungan dari pemilih.
 - Pengawasan pemilu: Peran lembaga pengawas pemilu dan masyarakat dalam memastikan transparansi, keadilan, dan keabsahan proses pemilihan.
@@ -72,7 +70,7 @@ Selain berita, ada beberapa aspek lain yang juga terkait dengan Pilkada Jakarta 
   </a>
 </p>
 
-<div align="center">
+<div align="justify">
 
 **Website Scrapping**
 
@@ -101,7 +99,7 @@ Data yang akan dilakukan scraping berkaitan dengan :
 + **Date** meliputi Tanggal dan waktu publikasi artikel berita.
 </p>
 
-<div align="center">
+<div align="justify">
     
 **Keunggulan Viva.co.id**
 
@@ -131,9 +129,6 @@ Berikut adalah salah satu contoh dokumen di MongoDB untuk berita Pilkada:
 ## :chart_with_upwards_trend: Visualisasi Data Scraping
 Berikut merupakan link data visualisasi dari hasil scraping : 
 + [Pilkada Jakarta 2024](https://rpubs.com/rizky_ardhani/airline_scraping)
-
-## :computer_mouse: Power Point Presentation
-Berikut adalah link powerpoint berkaitan dengan project yang telah dibuat :
 
 ## :woman_technologist: Pengembang
 + [Uswatun Hasanah](https://github.com/hhyuss/) (G1501231040)
