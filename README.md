@@ -1,5 +1,4 @@
 
-    <div align="center">
   <h1><strong>Tren Pilkada Jakarta 2024: Scraping Berita dari Sumber Terpercaya </strong></h1>
   <p align="center" width="80%">
     <img width="60%" src="https://thumb.viva.co.id/media/frontend/thumbs3/2020/12/09/5fd052596fe22-pilkada-2020-tangerang-selatan_1265_711.jpg">
