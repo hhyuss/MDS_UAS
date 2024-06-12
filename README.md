@@ -1,10 +1,12 @@
-<p align="center" width="80%">
+
+    <div align="center">
+  <h1><strong>Tren Pilkada Jakarta 2024: Scraping Berita dari Sumber Terpercaya </strong></h1>
+  <p align="center" width="80%">
     <img width="60%" src="https://thumb.viva.co.id/media/frontend/thumbs3/2020/12/09/5fd052596fe22-pilkada-2020-tangerang-selatan_1265_711.jpg">
 </p>
 
 <div align="center">
-    
-# PILKADA JAKARTA 2024
+
 [![scrape_MDS](https://github.com/hhyuss/MDS_UAS/actions/workflows/main.yml/badge.svg)](https://github.com/hhyuss/MDS_UAS/actions/workflows/main.yml)
 
 <p align="center">
