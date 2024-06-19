@@ -137,11 +137,11 @@ Berikut adalah salah satu contoh dokumen di MongoDB untuk berita Pilkada:
 ```
 ## :chart_with_upwards_trend: Visualisasi Data Scraping
 Berikut merupakan link data visualisasi dari hasil scraping (R Pubs) : 
-+ [Pilkada Jakarta 2024](https://rpubs.com/rizky_ardhani/airline_scraping)
++ [R Pubs Pilkada Jakarta 2024](https://rpubs.com/husawa21/scrappingpilkadajakarta24)
 
 ## :crown: Power Point
 Berikut merupakan link dari Power Point (PPT) dari hasil scraping : 
-+ [Pilkada Jakarta 2024](https://rpubs.com/rizky_ardhani/airline_scraping)
++ [PPT Pilkada Jakarta 2024](https://rpubs.com/husawa21/scrappingpilkadajakarta24)
 
 ## :woman_technologist: Pengembang
 + [Uswatun Hasanah](https://github.com/hhyuss/) (G1501231040)
