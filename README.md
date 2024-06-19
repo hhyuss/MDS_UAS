@@ -75,10 +75,25 @@ Pilkada Jakarta 2024 merujuk pada pemilihan kepala daerah yang akan diselenggara
 
 <div align="justify">
 
+**Portal Berita Viva.co.id**
+
+Viva.co.id adalah portal berita online Indonesia yang menyediakan berbagai informasi terkini dalam berbagai kategori seperti berita politik, ekonomi, olahraga, teknologi, dan hiburan. Diluncurkan pada tahun 2008, Viva.co.id berfokus pada penyajian berita secara cepat dan akurat, dengan tujuan untuk menjadi sumber informasi yang dapat dipercaya oleh masyarakat Indonesia. Selain berita, Viva.co.id juga menyediakan konten multimedia seperti video dan foto untuk memberikan pengalaman yang lebih komprehensif bagi penggunanya.
+
 **Website Scrapping**
 
 <p align="justify">
-Pada project kali ini, kita akan melakukan scraping pada website https://www.viva.co.id/ untuk mengumpulkan data terkait Pilkada Jakarta 2024. Situs web ini menyediakan berita, artikel, dan informasi terbaru mengenai berbagai topik, termasuk politik dan pemilihan umum di Indonesia.
+Pada project kali ini, kita akan melakukan scraping pada website https://www.viva.co.id/ untuk mengumpulkan data terkait Pilkada Jakarta 2024. Situs web ini menyediakan berita, artikel, dan informasi terbaru mengenai berbagai topik, termasuk politik dan pemilihan umum di Indonesia, terutama terkait Pilkada Jakarta 2024. 
+</p>
+
+<div align="justify">
+    
+**Keunggulan Viva.co.id**
+
+<p align="justify">
+Situs web Viva.co.id dipilih untuk scraping karena beberapa alasan:
+- Ketersediaan informasi terkini: Viva.co.id menyediakan berita dan artikel terbaru mengenai Pilkada Jakarta 2024, memungkinkan untuk mengakses informasi terbaru dan relevan.
+- Kualitas dan keberagaman informasi: Viva.co.id merupakan platform media yang terkenal dengan kualitas kontennya dan cakupan topik yang luas, termasuk politik dan pemilihan umum.
+- Keterbukaan akses: Viva.co.id memberikan akses terbuka ke berbagai artikel dan informasi, memudahkan untuk melakukan scraping dan mengumpulkan data secara efisien.
 </p>
 
 **Data**
@@ -102,16 +117,7 @@ Data yang akan dilakukan scraping berkaitan dengan :
 + **Date** meliputi Tanggal dan waktu publikasi artikel berita.
 </p>
 
-<div align="justify">
-    
-**Keunggulan Viva.co.id**
 
-<p align="justify">
-Situs web Viva.co.id dipilih untuk scraping karena beberapa alasan:
-- Ketersediaan informasi terkini: Viva.co.id menyediakan berita dan artikel terbaru mengenai Pilkada Jakarta 2024, memungkinkan untuk mengakses informasi terbaru dan relevan.
-- Kualitas dan keberagaman informasi: Viva.co.id merupakan platform media yang terkenal dengan kualitas kontennya dan cakupan topik yang luas, termasuk politik dan pemilihan umum.
-- Keterbukaan akses: Viva.co.id memberikan akses terbuka ke berbagai artikel dan informasi, memudahkan untuk melakukan scraping dan mengumpulkan data secara efisien.
-</p>
 </div>
 
 ## :pencil: Dokumen
