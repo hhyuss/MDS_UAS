@@ -82,7 +82,7 @@ Viva.co.id adalah portal berita online Indonesia yang menyediakan berbagai infor
 **Website Scrapping**
 
 <p align="justify">
-Pada project kali ini, kita akan melakukan scraping pada website https://www.viva.co.id/ untuk mengumpulkan data terkait Pilkada Jakarta 2024. Situs web ini menyediakan berita, artikel, dan informasi terbaru mengenai berbagai topik, termasuk politik dan pemilihan umum di Indonesia, terutama terkait Pilkada Jakarta 2024. 
+Pada project kali ini, kita akan melakukan scraping pada website https://www.viva.co.id/ untuk mengumpulkan data terkait Pilkada Jakarta 2024. Situs web ini menyediakan berita, artikel, dan informasi terbaru mengenai berbagai topik, termasuk politik dan pemilihan umum di Indonesia, terutama terkait Pilkada Jakarta 2024. Scrapping dilaksanakan pada 31 Mei 2024 hingga 12 Juni 2024. 
 </p>
 
 <div align="justify">
