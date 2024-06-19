@@ -10,7 +10,7 @@
 
 <p align="center">
     
-# 🗳️ Menu
+# 🗳️ Scrapping Portal Berita Viva.co.id
 
 </p>
 
@@ -21,6 +21,8 @@
 [Dokumen](#pencil-dokumen)
 •
 [Visualisasi Data Scraping](#chart_with_upwards_trend-visualisasi-data-scraping)
+•
+[PPT](#crown-power-point)
 •
 [Pengembang](#woman_technologist-pengembang)
 
@@ -128,11 +130,24 @@ Berikut adalah salah satu contoh dokumen di MongoDB untuk berita Pilkada:
 }
 ```
 ## :chart_with_upwards_trend: Visualisasi Data Scraping
-Berikut merupakan link data visualisasi dari hasil scraping : 
+Berikut merupakan link data visualisasi dari hasil scraping (R Pubs) : 
++ [Pilkada Jakarta 2024](https://rpubs.com/rizky_ardhani/airline_scraping)
+
+## :crown: Power Point
+Berikut merupakan link dari Power Point (PPT) dari hasil scraping : 
 + [Pilkada Jakarta 2024](https://rpubs.com/rizky_ardhani/airline_scraping)
 
 ## :woman_technologist: Pengembang
 + [Uswatun Hasanah](https://github.com/hhyuss/) (G1501231040)
+
+Merupakan Mahasiswa S2 Statistika dan Sains Data IPB University 2023 yang optimis dan unggul dalam 
+melakukan pengumpulan dan analisis data. Memiliki kemampuan Bahasa Inggris dengan TOEFL Score test   sebesar 550, keterampilan analitis dan kemampuan yang signifikan untuk bekerja dalam tim. Mudah beradaptasi dan mampu bekerja dalam tim maupun individu. 
+
+---
+
+<p align="center">
+  Made with :heart: by <a href="https://github.com/hhyuss/">Uswatun Hasanah</a>
+</p>
 
 
 
