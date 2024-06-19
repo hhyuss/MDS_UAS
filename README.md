@@ -152,7 +152,7 @@ melakukan pengumpulan dan analisis data. Memiliki kemampuan Bahasa Inggris denga
 ---
 
 <p align="center">
-  Made with :heart: by <a href="https://github.com/hhyuss/">Uswatun Hasanah</a>
+  Dibuat dengan :heart: oleh <a href="https://github.com/hhyuss/">Uswatun Hasanah</a>
 </p>
 
 
