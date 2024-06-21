@@ -147,7 +147,7 @@ Berikut merupakan link dari Power Point (PPT) dari hasil scraping :
 + [Uswatun Hasanah](https://github.com/hhyuss/) (G1501231040)
 
 Merupakan Mahasiswa S2 Statistika dan Sains Data IPB University 2023 yang optimis dan unggul dalam 
-melakukan pengumpulan dan analisis data. Memiliki kemampuan Bahasa Inggris dengan TOEFL Score test   sebesar 550, keterampilan analitis dan kemampuan yang signifikan untuk bekerja dalam tim. Mudah beradaptasi dan mampu bekerja dalam tim maupun individu. 
+melakukan pengumpulan dan analisis data. Tertarik pada bidang big data, dan memiliki  keterampilan analitis dan kemampuan yang signifikan untuk bekerja dalam tim. Mudah beradaptasi dan mampu bekerja dalam tim maupun individu. 
 
 ---
 
