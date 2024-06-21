@@ -141,7 +141,7 @@ Berikut merupakan link data visualisasi dari hasil scraping (R Pubs) :
 
 ## :crown: Power Point
 Berikut merupakan link dari Power Point (PPT) dari hasil scraping : 
-+ [PPT Pilkada Jakarta 2024](https://rpubs.com/husawa21/scrappingpilkadajakarta24)
++ [PPT Pilkada Jakarta 2024](https://github.com/hhyuss/MDS_UAS/blob/main/PPT_uswatun%20hasanah_%20G1501231040.pdf)
 
 ## :woman_technologist: Pengembang
 + [Uswatun Hasanah](https://github.com/hhyuss/) (G1501231040)
